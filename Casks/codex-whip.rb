@@ -7,7 +7,7 @@ cask "codex-whip" do
 
   url "https://github.com/turushan/codex-whip/releases/download/v#{version}/Codex-Whip-#{arch}.dmg"
   name "Codex Whip"
-  desc "Menu bar app that gets Codex CLI working again after capacity errors and quota waits"
+  desc "Menu bar app that resumes Codex CLI after capacity errors and quota waits"
   homepage "https://codexwhip.com/"
 
   livecheck do
@@ -16,7 +16,7 @@ cask "codex-whip" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Codex Whip.app"
 
