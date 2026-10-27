@@ -15,3 +15,14 @@ Codex Whip updates itself, so `brew upgrade` leaves it alone. `brew uninstall --
 removes the app; add `--zap` to also remove its settings and history.
 
 The cask is updated with every [Codex Whip release](https://github.com/turushan/codex-whip/releases).
+
+## Cheep
+
+A safe, unofficial Namecheap CLI with friendly output for people and stable JSON for scripts and AI agents.
+[cheep.sh](https://cheep.sh)
+
+```sh
+brew install turushan/tap/cheep
+```
+
+Homebrew builds Cheep from its tagged source with Go. `brew upgrade` installs new releases.
