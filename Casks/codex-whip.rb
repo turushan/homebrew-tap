@@ -1,17 +1,14 @@
 cask "codex-whip" do
-  arch arm: "arm64", intel: "x86_64"
+  version "1.11.0"
+  sha256 "7bc0bd2ab0853530805d75c1ea14b4944ba34197386581e8a55a247c1681b233"
 
-  version "1.10.3"
-  sha256 arm:   "0d09f6290100b7e65f9eb5b78ebf62bbba61168d9055b0902664475278f65937",
-         intel: "865d3472a16bcfc1f6c183f06420c577d5262411373ded39cd774fddd8c1a516"
-
-  url "https://github.com/turushan/codex-whip/releases/download/v#{version}/Codex-Whip-#{arch}.dmg"
+  url "https://github.com/turushan/codex-whip/releases/download/v#{version}/Codex-Whip.dmg"
   name "Codex Whip"
   desc "Menu bar app that resumes Codex CLI after capacity errors and quota waits"
   homepage "https://codexwhip.com/"
 
   livecheck do
-    url "https://raw.githubusercontent.com/turushan/codex-whip/main/updates/appcast-#{arch}.xml"
+    url "https://raw.githubusercontent.com/turushan/codex-whip/main/updates/appcast.xml"
     strategy :sparkle
   end
 
