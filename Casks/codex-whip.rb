@@ -1,6 +1,6 @@
 cask "codex-whip" do
-  version "1.11.0"
-  sha256 "7bc0bd2ab0853530805d75c1ea14b4944ba34197386581e8a55a247c1681b233"
+  version "1.12.0"
+  sha256 "6291bb3c7350aab48d455b2fcc8ad4a635dfbb9c2dbf0611c5a57077f091e5d2"
 
   url "https://github.com/turushan/codex-whip/releases/download/v#{version}/Codex-Whip.dmg"
   name "Codex Whip"
